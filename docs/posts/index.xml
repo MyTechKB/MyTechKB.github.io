@@ -6,7 +6,16 @@
     <description>Recent content in Posts on MyTechKB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Dec 2021 18:10:13 -0600</lastBuildDate><atom:link href="https://mytechkb.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Dec 2021 18:58:24 -0600</lastBuildDate><atom:link href="https://mytechkb.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Second Post</title>
+      <link>https://mytechkb.com/posts/my-second-post/</link>
+      <pubDate>Thu, 09 Dec 2021 18:58:24 -0600</pubDate>
+      
+      <guid>https://mytechkb.com/posts/my-second-post/</guid>
+      <description>This is another post.</description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://mytechkb.com/posts/my-first-post/</link>
