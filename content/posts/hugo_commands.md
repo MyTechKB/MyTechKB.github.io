@@ -1,7 +1,7 @@
 ---
 title: "Hugo Commands"
 date: 2021-12-12T21:58:14-06:00
-draft: true
+draft: false
 category: Quick Starts
 tags:
 - Blogging
