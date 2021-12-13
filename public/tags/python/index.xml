@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on MyTechKB</title>
+    <link>https://mytechkb.com/tags/python/</link>
+    <description>Recent content in Python on MyTechKB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Dec 2021 23:22:14 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Environment</title>
+      <link>https://mytechkb.com/posts/python_environment/</link>
+      <pubDate>Sun, 12 Dec 2021 23:22:14 -0600</pubDate>
+      
+      <guid>https://mytechkb.com/posts/python_environment/</guid>
+      <description>Python Environment Create and start Python Virtual Environment python3 -m venv venv source venv/bin/activate To install a local requirements.txt venv/bin/pip install -r requirements.txt venv/bin/pip install gunicorn To Exit Venv deactivate To create requirements.txt pip freeze &amp;gt; requirements.txt To remove installed plugins pip freeze | xargs pip uninstall -y To run flask app flask app.py </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on MyTechKB</title>
-    <link>https://mytechkb.com/posts/</link>
-    <description>Recent content in Posts on MyTechKB</description>
+    <title>Development on MyTechKB</title>
+    <link>https://mytechkb.com/tags/development/</link>
+    <description>Recent content in Development on MyTechKB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 23:30:21 -0600</lastBuildDate><atom:link href="https://mytechkb.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 23:30:21 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Node Environment</title>
       <link>https://mytechkb.com/posts/node_environment/</link>
@@ -23,17 +23,6 @@
       
       <guid>https://mytechkb.com/posts/python_environment/</guid>
       <description>Python Environment Create and start Python Virtual Environment python3 -m venv venv source venv/bin/activate To install a local requirements.txt venv/bin/pip install -r requirements.txt venv/bin/pip install gunicorn To Exit Venv deactivate To create requirements.txt pip freeze &amp;gt; requirements.txt To remove installed plugins pip freeze | xargs pip uninstall -y To run flask app flask app.py </description>
-    </item>
-    
-    <item>
-      <title>Hugo Commands</title>
-      <link>https://mytechkb.com/posts/hugo_commands/</link>
-      <pubDate>Sun, 12 Dec 2021 21:58:14 -0600</pubDate>
-      
-      <guid>https://mytechkb.com/posts/hugo_commands/</guid>
-      <description>Hugo Commands Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor
-Build static pages hugo -D </description>
     </item>
     
   </channel>
