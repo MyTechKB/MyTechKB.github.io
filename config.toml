@@ -2,4 +2,4 @@ baseURL = 'https://mytechkb.com/'
 languageCode = 'en-us'
 title = 'MyTechKB'
 theme = "ananke"
-publishDir= "docs"
+publishDir= "public"
