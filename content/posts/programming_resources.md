@@ -17,11 +17,22 @@ tags:
 - [Coding Challenges](https://codecondo.com/coding-challenges/)
 - [Hit a Wall article](https://www.reddit.com/r/learnprogramming/comments/3yqhuk/why_do_i_feel_like_ive_hit_a_wall_learning/)
 - [Twelve Factor App](https://12factor.net/)
+- [Simple Programmer](https://simpleprogrammer.com/)
+- [Clever Programmer](https://cleverprogrammer.com/)
+- [Geek for Geeks](https://www.geeksforgeeks.org/)
+
+
+## Find Starter Projects:
+- [First Timers Only](https://www.firsttimersonly.com/)
+- [Up For Grabs](https://up-for-grabs.net/)
+- [Good First Issues com](https://goodfirstissues.com/)
+- [Good First Issue dev](https://goodfirstissue.dev/)
 
 ## Python Resources:
 - [PyDon'ts](https://mathspp.com/blog/pydonts)
 - [Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
 - [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
+- [Hitchhikers Guide to Python](https://docs.python-guide.org/)
 - [Full Stack Python](https://www.fullstackpython.com/)
 - [Flask Microblogging Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-legacy)
 
