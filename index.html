@@ -54,59 +54,77 @@ Recent Posts
 <div class="flex flex-column flex-row-ns">
 <div class="blah w-100">
 <h1 class="f3 fw1 athelas mt0 lh-title">
-<a href=/posts/node_environment/ class="color-inherit dim link">
+<a href=/posts/general_proxmox_commands/ class="color-inherit dim link">
+General Proxmox Commands
+</a>
+</h1>
+<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+Unlock locked VM:
+qm unlock 100 # or pct unlock 100 # for CT
+</div>
+<a href=/posts/general_proxmox_commands/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="relative w-100 mb4">
+<article class="bb b--black-10">
+<div class="db pv4 ph3 ph0-l no-underline dark-gray">
+<div class="flex flex-column flex-row-ns">
+<div class="blah w-100">
+<h1 class="f3 fw1 athelas mt0 lh-title">
+<a href=/posts/remove_snap_from_ubuntu/ class="color-inherit dim link">
+Remove Snap from Ubuntu
+</a>
+</h1>
+<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+Remove snap from ubuntu snap list sudo snap remove &lt;package_name> #(remove snapd last) sudo umount /snap/core/xxxx sudo umount /var/snap sudo apt purge snapd sudo apt autoremove
+</div>
+<a href=/posts/remove_snap_from_ubuntu/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="relative w-100 mb4">
+<article class="bb b--black-10">
+<div class="db pv4 ph3 ph0-l no-underline dark-gray">
+<div class="flex flex-column flex-row-ns">
+<div class="blah w-100">
+<h1 class="f3 fw1 athelas mt0 lh-title">
+<a href=/posts/proxmox_expand_hd/ class="color-inherit dim link">
+Proxmox Expand HD Space
+</a>
+</h1>
+<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+Expand HD space in Proxmox VM lsblk sudo fdisk -l /dev/sda sudo parted /dev/sda - print - F (fix) - resizepart 3 100% - quit sudo fdisk -l /dev/sda sudo pvresize /dev/sda3 sudo lvextend ubuntu-vg/ubuntu-lv -l+100%FREE sudo resize2fs /dev/ubuntu-vg/ubuntu-lv sudo reboot
+</div>
+<a href=/posts/proxmox_expand_hd/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class=w-100>
+<h1 class=f3>More</h1>
+<h2 class="f5 fw4 mb4 dib mr3">
+<a href=/posts/node_environment/ class="link black dim">
 Node Environment
 </a>
-</h1>
-<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-NodeJS Environment To create a new package.json npm init -y To install a package npm i &lt;package-name> sudo npm i -g nodemon To install a local package.json npm install To run node file node app.js To use nodemon to auto-restart server nodemon app.js
-</div>
-<a href=/posts/node_environment/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-</div>
-</div>
-</div>
-</article>
-</div>
-<div class="relative w-100 mb4">
-<article class="bb b--black-10">
-<div class="db pv4 ph3 ph0-l no-underline dark-gray">
-<div class="flex flex-column flex-row-ns">
-<div class="blah w-100">
-<h1 class="f3 fw1 athelas mt0 lh-title">
-<a href=/posts/python_environment/ class="color-inherit dim link">
+</h2>
+<h2 class="f5 fw4 mb4 dib mr3">
+<a href=/posts/python_environment/ class="link black dim">
 Python Environment
 </a>
-</h1>
-<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-Python Environment Create and start Python Virtual Environment python3 -m venv venv source venv/bin/activate To install a local requirements.txt venv/bin/pip install -r requirements.txt venv/bin/pip install gunicorn To Exit Venv deactivate To create requirements.txt pip freeze > requirements.txt To remove installed plugins pip freeze | xargs pip uninstall -y To run flask app flask app.py
-</div>
-<a href=/posts/python_environment/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-</div>
-</div>
-</div>
-</article>
-</div>
-<div class="relative w-100 mb4">
-<article class="bb b--black-10">
-<div class="db pv4 ph3 ph0-l no-underline dark-gray">
-<div class="flex flex-column flex-row-ns">
-<div class="blah w-100">
-<h1 class="f3 fw1 athelas mt0 lh-title">
-<a href=/posts/hugo_commands/ class="color-inherit dim link">
+</h2>
+<h2 class="f5 fw4 mb4 dib mr3">
+<a href=/posts/hugo_commands/ class="link black dim">
 Hugo Commands
 </a>
-</h1>
-<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-Hugo Commands Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor
-Build static pages hugo -D
-</div>
-<a href=/posts/hugo_commands/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-</div>
-</div>
-</div>
-</article>
-</div>
+</h2>
+<a href=/posts/ class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
 </section>
 </div>
 </main>
