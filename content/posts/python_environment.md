@@ -8,8 +8,6 @@ tags:
 - Python
 ---
 
-# Python Environment
-
 ## Create and start Python Virtual Environment
 {{< highlight bash >}}
 python3 -m venv venv

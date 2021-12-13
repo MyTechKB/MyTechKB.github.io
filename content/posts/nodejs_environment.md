@@ -1,5 +1,5 @@
 ---
-title: "Node Environment"
+title: "NodeJS Environment"
 date: 2021-12-12T23:30:21-06:00
 draft: false
 category: Quick Starts
@@ -7,8 +7,6 @@ tags:
 - Development
 - NodeJS
 ---
-
-# NodeJS Environment
 
 ## To create a new package.json
 {{< highlight bash >}}

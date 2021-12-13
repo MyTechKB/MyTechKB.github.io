@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Dec 2021 23:30:21 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Node Environment</title>
-      <link>https://mytechkb.com/posts/node_environment/</link>
+      <title>NodeJS Environment</title>
+      <link>https://mytechkb.com/posts/nodejs_environment/</link>
       <pubDate>Sun, 12 Dec 2021 23:30:21 -0600</pubDate>
       
-      <guid>https://mytechkb.com/posts/node_environment/</guid>
-      <description>NodeJS Environment To create a new package.json npm init -y To install a package npm i &amp;lt;package-name&amp;gt; sudo npm i -g nodemon To install a local package.json npm install To run node file node app.js To use nodemon to auto-restart server nodemon app.js </description>
+      <guid>https://mytechkb.com/posts/nodejs_environment/</guid>
+      <description>To create a new package.json npm init -y To install a package npm i &amp;lt;package-name&amp;gt; sudo npm i -g nodemon To install a local package.json npm install To run node file node app.js To use nodemon to auto-restart server nodemon app.js </description>
     </item>
     
   </channel>

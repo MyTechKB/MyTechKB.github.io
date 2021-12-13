@@ -8,8 +8,6 @@ tags:
 - Hugo
 ---
 
-# Hugo Commands
-
 ## Create a new site
 {{< highlight bash >}}
 hugo new site quickstart

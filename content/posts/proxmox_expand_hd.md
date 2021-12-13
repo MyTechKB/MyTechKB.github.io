@@ -8,7 +8,6 @@ tags:
 ---
 
 ## Expand HD space in Proxmox VM
-
 {{< highlight bash >}}
 lsblk
 sudo fdisk -l /dev/sda

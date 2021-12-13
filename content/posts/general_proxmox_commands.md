@@ -7,8 +7,7 @@ tags:
 - Proxmox
 ---
 
-Unlock locked VM:
-
+## Unlock locked VM
 {{< highlight bash >}}
 qm unlock 100
 # or

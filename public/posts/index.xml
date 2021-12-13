@@ -13,8 +13,7 @@
       <pubDate>Sun, 12 Dec 2021 23:48:53 -0600</pubDate>
       
       <guid>https://mytechkb.com/posts/general_proxmox_commands/</guid>
-      <description>Unlock locked VM:
-qm unlock 100 # or pct unlock 100 # for CT </description>
+      <description>Unlock locked VM qm unlock 100 # or pct unlock 100 # for CT </description>
     </item>
     
     <item>
@@ -36,12 +35,12 @@ qm unlock 100 # or pct unlock 100 # for CT </description>
     </item>
     
     <item>
-      <title>Node Environment</title>
-      <link>https://mytechkb.com/posts/node_environment/</link>
+      <title>NodeJS Environment</title>
+      <link>https://mytechkb.com/posts/nodejs_environment/</link>
       <pubDate>Sun, 12 Dec 2021 23:30:21 -0600</pubDate>
       
-      <guid>https://mytechkb.com/posts/node_environment/</guid>
-      <description>NodeJS Environment To create a new package.json npm init -y To install a package npm i &amp;lt;package-name&amp;gt; sudo npm i -g nodemon To install a local package.json npm install To run node file node app.js To use nodemon to auto-restart server nodemon app.js </description>
+      <guid>https://mytechkb.com/posts/nodejs_environment/</guid>
+      <description>To create a new package.json npm init -y To install a package npm i &amp;lt;package-name&amp;gt; sudo npm i -g nodemon To install a local package.json npm install To run node file node app.js To use nodemon to auto-restart server nodemon app.js </description>
     </item>
     
     <item>
@@ -50,7 +49,7 @@ qm unlock 100 # or pct unlock 100 # for CT </description>
       <pubDate>Sun, 12 Dec 2021 23:22:14 -0600</pubDate>
       
       <guid>https://mytechkb.com/posts/python_environment/</guid>
-      <description>Python Environment Create and start Python Virtual Environment python3 -m venv venv source venv/bin/activate To install a local requirements.txt venv/bin/pip install -r requirements.txt venv/bin/pip install gunicorn To Exit Venv deactivate To create requirements.txt pip freeze &amp;gt; requirements.txt To remove installed plugins pip freeze | xargs pip uninstall -y To run flask app flask app.py </description>
+      <description>Create and start Python Virtual Environment python3 -m venv venv source venv/bin/activate To install a local requirements.txt venv/bin/pip install -r requirements.txt venv/bin/pip install gunicorn To Exit Venv deactivate To create requirements.txt pip freeze &amp;gt; requirements.txt To remove installed plugins pip freeze | xargs pip uninstall -y To run flask app flask app.py </description>
     </item>
     
     <item>
@@ -59,7 +58,7 @@ qm unlock 100 # or pct unlock 100 # for CT </description>
       <pubDate>Sun, 12 Dec 2021 21:58:14 -0600</pubDate>
       
       <guid>https://mytechkb.com/posts/hugo_commands/</guid>
-      <description>Hugo Commands Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+      <description>Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor
 Build static pages hugo -D </description>
     </item>

@@ -8,7 +8,6 @@ tags:
 ---
 
 ## Remove snap from ubuntu
-
 {{< highlight bash >}}
 snap list
 sudo snap remove <package_name>  #(remove snapd last)

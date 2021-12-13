@@ -13,7 +13,7 @@
       <pubDate>Sun, 12 Dec 2021 21:58:14 -0600</pubDate>
       
       <guid>https://mytechkb.com/posts/hugo_commands/</guid>
-      <description>Hugo Commands Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+      <description>Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor
 Build static pages hugo -D </description>
     </item>
