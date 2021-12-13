@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Hugo on MyTechKB</title>
-    <link>https://mytechkb.com/tags/hugo/</link>
-    <description>Recent content in Hugo on MyTechKB</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 21:58:14 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo Commands</title>
-      <link>https://mytechkb.com/posts/hugo_commands/</link>
-      <pubDate>Sun, 12 Dec 2021 21:58:14 -0600</pubDate>
-      
-      <guid>https://mytechkb.com/posts/hugo_commands/</guid>
-      <description>Hugo Commands Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on MyTechKB</title><link>https://mytechkb.com/tags/hugo/</link><description>Recent content in Hugo on MyTechKB</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Dec 2021 21:58:14 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Commands</title><link>https://mytechkb.com/posts/hugo_commands/</link><pubDate>Sun, 12 Dec 2021 21:58:14 -0600</pubDate><guid>https://mytechkb.com/posts/hugo_commands/</guid><description>Hugo Commands Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor
-Build static pages hugo -D </description>
-    </item>
-    
-  </channel>
-</rss>
+Build static pages hugo -D</description></item></channel></rss>
