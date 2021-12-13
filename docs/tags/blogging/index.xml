@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on MyTechKB</title>
-    <link>https://mytechkb.com/posts/</link>
-    <description>Recent content in Posts on MyTechKB</description>
+    <title>Blogging on MyTechKB</title>
+    <link>https://mytechkb.com/tags/blogging/</link>
+    <description>Recent content in Blogging on MyTechKB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 21:58:14 -0600</lastBuildDate><atom:link href="https://mytechkb.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 21:58:14 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Commands</title>
       <link>https://mytechkb.com/posts/hugo_commands/</link>
