@@ -41,9 +41,3 @@ Open up config.toml in a text editor
 hugo -D
 {{< / highlight >}}
 
-## Code Highlighting
-{{< highlight bash >}}
-\{\{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}"
-// ... code
-\{\{< / highlight >}}"
-{{< / highlight >}}
