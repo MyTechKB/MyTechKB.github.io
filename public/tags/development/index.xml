@@ -6,7 +6,25 @@
     <description>Recent content in Development on MyTechKB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 23:30:21 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Dec 2021 00:07:35 -0600</lastBuildDate><atom:link href="https://mytechkb.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql Commands</title>
+      <link>https://mytechkb.com/posts/mysql_commands/</link>
+      <pubDate>Mon, 13 Dec 2021 00:07:35 -0600</pubDate>
+      
+      <guid>https://mytechkb.com/posts/mysql_commands/</guid>
+      <description>Enter MySQL prompt as root user sudo mysql -u root -p Show Users and Databases show databases; select host, user, password from mysql.user; User Commands # To create a new MySQL user account, run the following command: CREATE USER &amp;#39;newuser&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;user_password&amp;#39;; # To grant access from another host, change the hostname part (localhost) with the remote machine IP. # For example, to grant access from a machine with IP 10.</description>
+    </item>
+    
+    <item>
+      <title>Programming Resources</title>
+      <link>https://mytechkb.com/posts/programming_resources/</link>
+      <pubDate>Sun, 12 Dec 2021 23:58:22 -0600</pubDate>
+      
+      <guid>https://mytechkb.com/posts/programming_resources/</guid>
+      <description>General Programming  Reddit r/learnprogramming FAQ Reddit r/dailyprogrammer Coding Challenges Hit a Wall article Twelve Factor App  Python Resources:  PyDon&amp;rsquo;ts Python Style Guide Zen of Python Full Stack Python Flask Microblogging Tutorial  HTML/CSS/JavaScript Resources:  CodePen - build &amp;amp; test MDN Web Docs Char Reference Color Picker CSS Font Stack Coolors - Trending Colors Specificity Calculator Easing Functions Unsplash - Free Photos Google Fonts CSS Reset Bootstrap Docs  </description>
+    </item>
+    
     <item>
       <title>NodeJS Environment</title>
       <link>https://mytechkb.com/posts/nodejs_environment/</link>
