@@ -15,7 +15,7 @@
       <guid>https://mytechkb.com/posts/hugo_commands/</guid>
       <description>Hugo Commands Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor
-Build static pages hugo -D Code Highlighting \{\{&amp;lt; highlight go &amp;#34;linenos=table,hl_lines=8 15-17,linenostart=199&amp;#34; &amp;gt;}}&amp;#34; // ... code \{\{&amp;lt; / highlight &amp;gt;}}&amp;#34; </description>
+Build static pages hugo -D </description>
     </item>
     
   </channel>
