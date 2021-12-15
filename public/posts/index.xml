@@ -6,7 +6,16 @@
     <description>Recent content in Posts on MyTechKB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Dec 2021 00:43:09 -0600</lastBuildDate><atom:link href="https://mytechkb.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 21:23:08 -0600</lastBuildDate><atom:link href="https://mytechkb.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Commands</title>
+      <link>https://mytechkb.com/posts/git_commands/</link>
+      <pubDate>Tue, 14 Dec 2021 21:23:08 -0600</pubDate>
+      
+      <guid>https://mytechkb.com/posts/git_commands/</guid>
+      <description>Initialize global user git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;youremail@yourdomain.com&amp;#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update </description>
+    </item>
+    
     <item>
       <title>Blogging Information</title>
       <link>https://mytechkb.com/posts/blogging_information/</link>
