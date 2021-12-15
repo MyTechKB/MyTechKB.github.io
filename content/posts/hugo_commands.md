@@ -39,3 +39,8 @@ Open up config.toml in a text editor
 hugo -D
 {{< / highlight >}}
 
+# Clone theme after git clone
+{{< highlight bash >}}
+git submodule init
+git submodule update
+{{< / highlight >}}
