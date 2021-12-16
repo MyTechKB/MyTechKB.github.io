@@ -104,9 +104,7 @@ Linux - Solution 1: chmod -R 755 will set this as permissions to all files and f
       <pubDate>Sun, 12 Dec 2021 21:58:14 -0600</pubDate>
       
       <guid>https://mytechkb.com/posts/hugo_commands/</guid>
-      <description>Create a new site hugo new site quickstart Add a theme Hugo Themes cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor
-Build static pages hugo -D Clone theme after git clone git submodule init git submodule update </description>
+      <description>Create a new site hugo new site quickstart Add a theme  Hugo Themes Don&amp;rsquo;t use the submodule method since that won&amp;rsquo;t allow you to customize the theme. Instead, download the zip file and extract into the themes directory.  cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor</description>
     </item>
     
   </channel>
