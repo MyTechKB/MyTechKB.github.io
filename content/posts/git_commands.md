@@ -23,9 +23,9 @@ git submodule update
 
 ## Remove submodule
 {{< highlight bash >}}
-mv yoursubmodule yoursubmodule_tmp
-git submodule deinit yourSubmodule
-git rm yourSubmodule
-mv yoursubmodule_tmp yoursubmodule
-git add yoursubmodule
+mv <yourSubmodule> <yourSubmodule>_tmp
+git submodule deinit <yourSubmodule>
+git rm <yourSubmodule>
+mv <yourSubmodule>_tmp <yourSubmodule>
+git add <yourSubmodule>
 {{< / highlight >}}
