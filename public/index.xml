@@ -13,7 +13,7 @@
       <pubDate>Tue, 14 Dec 2021 21:23:08 -0600</pubDate>
       
       <guid>https://mytechkb.com/posts/git_commands/</guid>
-      <description>Initialize global user git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;youremail@yourdomain.com&amp;#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update </description>
+      <description>Initialize global user git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;youremail@yourdomain.com&amp;#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv yoursubmodule yoursubmodule_tmp git submodule deinit yourSubmodule git rm yourSubmodule mv yoursubmodule_tmp yoursubmodule git add yoursubmodule </description>
     </item>
     
     <item>

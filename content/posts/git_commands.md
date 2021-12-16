@@ -20,3 +20,12 @@ git config --global credential.helper store
 git submodule init
 git submodule update
 {{< / highlight >}}
+
+## Remove submodule
+{{< highlight bash >}}
+mv yoursubmodule yoursubmodule_tmp
+git submodule deinit yourSubmodule
+git rm yourSubmodule
+mv yoursubmodule_tmp yoursubmodule
+git add yoursubmodule
+{{< / highlight >}}
