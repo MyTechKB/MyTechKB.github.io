@@ -5,7 +5,7 @@
 <title>Proxmox Expand HD Space | MyTechKB</title>
 <meta name=viewport content="width=device-width,minimum-scale=1">
 <meta name=description content="Expand HD space in Proxmox VM lsblk sudo fdisk -l /dev/sda sudo parted /dev/sda - print - F (fix) - resizepart 3 100% - quit sudo fdisk -l /dev/sda sudo pvresize /dev/sda3 sudo lvextend ubuntu-vg/ubuntu-lv -l+100%FREE sudo resize2fs /dev/ubuntu-vg/ubuntu-lv sudo reboot ">
-<meta name=generator content="Hugo 0.90.1">
+<meta name=generator content="Hugo 0.91.0">
 <meta name=ROBOTS content="NOINDEX, NOFOLLOW">
 <link rel=stylesheet href=/ananke/css/main.min.css>
 <meta property="og:title" content="Proxmox Expand HD Space">

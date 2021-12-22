@@ -5,7 +5,7 @@
 <title>MyTechKB</title>
 <meta name=viewport content="width=device-width,minimum-scale=1">
 <meta name=description content="All the tech knowledge.">
-<meta name=generator content="Hugo 0.90.1">
+<meta name=generator content="Hugo 0.91.0">
 <meta name=ROBOTS content="NOINDEX, NOFOLLOW">
 <link rel=stylesheet href=/ananke/css/main.min.css>
 <link href=/post/index.xml rel=alternate type=application/rss+xml title=MyTechKB>
@@ -69,6 +69,21 @@ Git Commands
 </h1>
 <div class="nested-links f5 lh-copy nested-copy-line-height">
 Initialize global user git config --global user.name "Your Name" git config --global user.email "youremail@yourdomain.com" Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv &lt;yourSubmodule> &lt;yourSubmodule>_tmp git submodule deinit &lt;yourSubmodule> git rm &lt;yourSubmodule> mv &lt;yourSubmodule>_tmp &lt;yourSubmodule> git add &lt;yourSubmodule>
+</div>
+</div>
+</div>
+<div class="relative w-100 w-30-l mb4 bg-white">
+<div class="mb3 pa4 mid-gray overflow-hidden">
+<div class=f6>
+December 14, 2021
+</div>
+<h1 class="f3 near-black">
+<a href=/post/wireguard_commands/ class="link black dim">
+Wireguard Commands
+</a>
+</h1>
+<div class="nested-links f5 lh-copy nested-copy-line-height">
+Startup Command sudo wg-quick up wg0
 </div>
 </div>
 </div>
@@ -175,21 +190,6 @@ Proxmox Expand HD Space
 </h1>
 <div class="nested-links f5 lh-copy nested-copy-line-height">
 Expand HD space in Proxmox VM lsblk sudo fdisk -l /dev/sda sudo parted /dev/sda - print - F (fix) - resizepart 3 100% - quit sudo fdisk -l /dev/sda sudo pvresize /dev/sda3 sudo lvextend ubuntu-vg/ubuntu-lv -l+100%FREE sudo resize2fs /dev/ubuntu-vg/ubuntu-lv sudo reboot
-</div>
-</div>
-</div>
-<div class="relative w-100 w-30-l mb4 bg-white">
-<div class="mb3 pa4 mid-gray overflow-hidden">
-<div class=f6>
-December 12, 2021
-</div>
-<h1 class="f3 near-black">
-<a href=/post/nodejs_environment/ class="link black dim">
-NodeJS Environment
-</a>
-</h1>
-<div class="nested-links f5 lh-copy nested-copy-line-height">
-To create a new package.json npm init -y To install a package npm i &lt;package-name> sudo npm i -g nodemon To install a local package.json npm install To run node file node app.js To use nodemon to auto-restart server nodemon app.js
 </div>
 </div>
 </div>
