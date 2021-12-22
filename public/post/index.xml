@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Wireguard Commands</title>
+      <link>https://mytechkb.com/post/wireguard_commands/</link>
+      <pubDate>Tue, 14 Dec 2021 21:23:08 -0600</pubDate>
+      
+      <guid>https://mytechkb.com/post/wireguard_commands/</guid>
+      <description>Startup Command sudo wg-quick up wg0 </description>
+    </item>
+    
+    <item>
       <title>Blogging Information</title>
       <link>https://mytechkb.com/post/blogging_information/</link>
       <pubDate>Mon, 13 Dec 2021 00:43:09 -0600</pubDate>

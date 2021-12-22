@@ -17,6 +17,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mytechkb.com/post/wireguard_commands/</loc>
+    <lastmod>2021-12-14T21:23:08-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mytechkb.com/tags/blogging/</loc>
     <lastmod>2021-12-13T00:43:09-06:00</lastmod>
     <changefreq>monthly</changefreq>
