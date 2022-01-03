@@ -2,25 +2,25 @@
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
-<title>Rust_environment | MyTechKB</title>
+<title>Rust Environment | MyTechKB</title>
 <meta name=viewport content="width=device-width,minimum-scale=1">
-<meta name=description content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands build your project with cargo build run your project with cargo run test your project with cargo test build documentation for your project with cargo doc publish a library to crates.io with cargo publish">
+<meta name=description content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands cargo build # build your project cargo run # run your project cargo test # test your project cargo doc # build documentation for your project cargo publish # publish a library to crates.io Create new project cargo new hello-rust # Creates a new dir called hello-rust hello-rust |- Cargo.toml |- src |- main.rs ">
 <meta name=generator content="Hugo 0.91.2">
 <meta name=ROBOTS content="NOINDEX, NOFOLLOW">
 <link rel=stylesheet href=/ananke/css/main.min.css>
-<meta property="og:title" content="Rust_environment">
-<meta property="og:description" content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands build your project with cargo build run your project with cargo run test your project with cargo test build documentation for your project with cargo doc publish a library to crates.io with cargo publish">
+<meta property="og:title" content="Rust Environment">
+<meta property="og:description" content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands cargo build # build your project cargo run # run your project cargo test # test your project cargo doc # build documentation for your project cargo publish # publish a library to crates.io Create new project cargo new hello-rust # Creates a new dir called hello-rust hello-rust |- Cargo.toml |- src |- main.rs ">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://mytechkb.com/post/rust_environment/"><meta property="article:section" content="post">
 <meta property="article:published_time" content="2022-01-02T23:47:03-06:00">
 <meta property="article:modified_time" content="2022-01-02T23:47:03-06:00">
-<meta itemprop=name content="Rust_environment">
-<meta itemprop=description content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands build your project with cargo build run your project with cargo run test your project with cargo test build documentation for your project with cargo doc publish a library to crates.io with cargo publish"><meta itemprop=datePublished content="2022-01-02T23:47:03-06:00">
+<meta itemprop=name content="Rust Environment">
+<meta itemprop=description content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands cargo build # build your project cargo run # run your project cargo test # test your project cargo doc # build documentation for your project cargo publish # publish a library to crates.io Create new project cargo new hello-rust # Creates a new dir called hello-rust hello-rust |- Cargo.toml |- src |- main.rs "><meta itemprop=datePublished content="2022-01-02T23:47:03-06:00">
 <meta itemprop=dateModified content="2022-01-02T23:47:03-06:00">
-<meta itemprop=wordCount content="50">
+<meta itemprop=wordCount content="70">
 <meta itemprop=keywords content="Development,Rust,"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Rust_environment">
-<meta name=twitter:description content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands build your project with cargo build run your project with cargo run test your project with cargo test build documentation for your project with cargo doc publish a library to crates.io with cargo publish">
+<meta name=twitter:title content="Rust Environment">
+<meta name=twitter:description content="Install Rust curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands cargo build # build your project cargo run # run your project cargo test # test your project cargo doc # build documentation for your project cargo publish # publish a library to crates.io Create new project cargo new hello-rust # Creates a new dir called hello-rust hello-rust |- Cargo.toml |- src |- main.rs ">
 </head>
 <body class="ma0 avenir bg-near-white">
 <header>
@@ -58,7 +58,7 @@ POSTS
 </aside>
 <div id=sharing class="mt3 ananke-socials">
 </div>
-<h1 class="f1 athelas mt3 mb1">Rust_environment</h1>
+<h1 class="f1 athelas mt3 mb1">Rust Environment</h1>
 <p class=tracked>
 By <strong>
 Brian Ladner
@@ -71,11 +71,18 @@ Brian Ladner
 <h2 id=update-rust>Update Rust</h2>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>rustup update</code></pre></div>
 <h2 id=cargo-commands>Cargo commands</h2>
-<p>build your project with cargo build
-run your project with cargo run
-test your project with cargo test
-build documentation for your project with cargo doc
-publish a library to crates.io with cargo publish</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cargo build  <span style=color:#75715e># build your project</span>
+cargo run  <span style=color:#75715e># run your project</span>
+cargo test  <span style=color:#75715e># test your project</span>
+cargo doc  <span style=color:#75715e># build documentation for your project</span>
+cargo publish  <span style=color:#75715e># publish a library to crates.io</span></code></pre></div>
+<h2 id=create-new-project>Create new project</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cargo new hello-rust  <span style=color:#75715e># Creates a new dir called hello-rust</span>
+
+hello-rust
+|- Cargo.toml
+|- src
+  |- main.rs</code></pre></div>
 <ul class=pa0>
 <li class=list>
 <a href=/tags/development class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Development</a>
