@@ -1,5 +1,5 @@
 ---
-title: "Rust_environment"
+title: "Rust Environment"
 date: 2022-01-02T23:47:03-06:00
 draft: false
 category: Quick Starts
@@ -19,13 +19,20 @@ rustup update
 {{< / highlight >}}
 
 ## Cargo commands
+{{< highlight bash >}}
+cargo build  # build your project
+cargo run  # run your project
+cargo test  # test your project
+cargo doc  # build documentation for your project
+cargo publish  # publish a library to crates.io
+{{< / highlight >}}
 
-build your project with cargo build
-<br>
-run your project with cargo run
-<br>
-test your project with cargo test
-<br>
-build documentation for your project with cargo doc
-<br>
-publish a library to crates.io with cargo publish
+## Create new project
+{{< highlight bash >}}
+cargo new hello-rust  # Creates a new dir called hello-rust
+
+hello-rust
+|- Cargo.toml
+|- src
+  |- main.rs
+{{< / highlight >}}
