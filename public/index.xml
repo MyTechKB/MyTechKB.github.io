@@ -6,7 +6,16 @@
     <description>Recent content in My Tech Knowledge Base on MyTechKB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 21:23:08 -0600</lastBuildDate><atom:link href="https://mytechkb.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jan 2022 23:47:03 -0600</lastBuildDate><atom:link href="https://mytechkb.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust_environment</title>
+      <link>https://mytechkb.com/post/rust_environment/</link>
+      <pubDate>Sun, 02 Jan 2022 23:47:03 -0600</pubDate>
+      
+      <guid>https://mytechkb.com/post/rust_environment/</guid>
+      <description>Install Rust curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Update Rust rustup update Cargo commands build your project with cargo build run your project with cargo run test your project with cargo test build documentation for your project with cargo doc publish a library to crates.io with cargo publish</description>
+    </item>
+    
     <item>
       <title>Git Commands</title>
       <link>https://mytechkb.com/post/git_commands/</link>
@@ -113,7 +122,7 @@ Linux - Solution 1: chmod -R 755 will set this as permissions to all files and f
       <pubDate>Sun, 12 Dec 2021 21:58:14 -0600</pubDate>
       
       <guid>https://mytechkb.com/post/hugo_commands/</guid>
-      <description>Create a new site hugo new site quickstart Add a theme  Hugo Themes Don&amp;rsquo;t use the submodule method since that won&amp;rsquo;t allow you to customize the theme. Instead, download the zip file and extract into the themes directory.  cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke Add some content hugo new posts/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor</description>
+      <description>Create a new site hugo new site quickstart Add a theme  Hugo Themes Don&amp;rsquo;t use the submodule method since that won&amp;rsquo;t allow you to customize the theme. Instead, download the zip file and extract into the themes directory.  cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke Add some content hugo new post/my-first-post.md Start the Hugo Server hugo server -D Site Configuration Open up config.toml in a text editor</description>
     </item>
     
     <item>

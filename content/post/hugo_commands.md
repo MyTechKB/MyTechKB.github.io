@@ -28,7 +28,7 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 ## Add some content
 
 {{< highlight bash >}}
-hugo new posts/my-first-post.md
+hugo new post/my-first-post.md
 {{< / highlight >}}
 
 ## Start the Hugo Server
