@@ -22,7 +22,7 @@
       <pubDate>Tue, 14 Dec 2021 21:23:08 -0600</pubDate>
       
       <guid>https://mytechkb.com/post/git_commands/</guid>
-      <description>Initialize global user git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;youremail@yourdomain.com&amp;#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv &amp;lt;yourSubmodule&amp;gt; &amp;lt;yourSubmodule&amp;gt;_tmp git submodule deinit &amp;lt;yourSubmodule&amp;gt; git rm &amp;lt;yourSubmodule&amp;gt; mv &amp;lt;yourSubmodule&amp;gt;_tmp &amp;lt;yourSubmodule&amp;gt; git add &amp;lt;yourSubmodule&amp;gt; </description>
+      <description>Initialize global user git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;youremail@yourdomain.com&amp;#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule # Remove the submodule entry from .git/config git submodule deinit -f path/to/submodule # Remove the submodule directory from the superproject&amp;#39;s .git/modules directory rm -rf .git/modules/path/to/submodule # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule git rm -f path/to/submodule </description>
     </item>
     
     <item>

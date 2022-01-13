@@ -6,7 +6,7 @@
     
     <title>Git Commands | MyTechKB</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv &lt;yourSubmodule&gt; &lt;yourSubmodule&gt;_tmp git submodule deinit &lt;yourSubmodule&gt; git rm &lt;yourSubmodule&gt; mv &lt;yourSubmodule&gt;_tmp &lt;yourSubmodule&gt; git add &lt;yourSubmodule&gt; ">
+    <meta name="description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule # Remove the submodule entry from .git/config git submodule deinit -f path/to/submodule # Remove the submodule directory from the superproject&#39;s .git/modules directory rm -rf .git/modules/path/to/submodule # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule git rm -f path/to/submodule ">
     <meta name="generator" content="Hugo 0.89.4" />
     
     
@@ -27,19 +27,19 @@
     
     
     <meta property="og:title" content="Git Commands" />
-<meta property="og:description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv &lt;yourSubmodule&gt; &lt;yourSubmodule&gt;_tmp git submodule deinit &lt;yourSubmodule&gt; git rm &lt;yourSubmodule&gt; mv &lt;yourSubmodule&gt;_tmp &lt;yourSubmodule&gt; git add &lt;yourSubmodule&gt; " />
+<meta property="og:description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule # Remove the submodule entry from .git/config git submodule deinit -f path/to/submodule # Remove the submodule directory from the superproject&#39;s .git/modules directory rm -rf .git/modules/path/to/submodule # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule git rm -f path/to/submodule " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mytechkb.com/post/git_commands/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-12-14T21:23:08-06:00" />
 <meta property="article:modified_time" content="2021-12-14T21:23:08-06:00" />
 
 <meta itemprop="name" content="Git Commands">
-<meta itemprop="description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv &lt;yourSubmodule&gt; &lt;yourSubmodule&gt;_tmp git submodule deinit &lt;yourSubmodule&gt; git rm &lt;yourSubmodule&gt; mv &lt;yourSubmodule&gt;_tmp &lt;yourSubmodule&gt; git add &lt;yourSubmodule&gt; "><meta itemprop="datePublished" content="2021-12-14T21:23:08-06:00" />
+<meta itemprop="description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule # Remove the submodule entry from .git/config git submodule deinit -f path/to/submodule # Remove the submodule directory from the superproject&#39;s .git/modules directory rm -rf .git/modules/path/to/submodule # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule git rm -f path/to/submodule "><meta itemprop="datePublished" content="2021-12-14T21:23:08-06:00" />
 <meta itemprop="dateModified" content="2021-12-14T21:23:08-06:00" />
-<meta itemprop="wordCount" content="51">
+<meta itemprop="wordCount" content="78">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git Commands"/>
-<meta name="twitter:description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv &lt;yourSubmodule&gt; &lt;yourSubmodule&gt;_tmp git submodule deinit &lt;yourSubmodule&gt; git rm &lt;yourSubmodule&gt; mv &lt;yourSubmodule&gt;_tmp &lt;yourSubmodule&gt; git add &lt;yourSubmodule&gt; "/>
+<meta name="twitter:description" content="Initialize global user git config --global user.name &#34;Your Name&#34; git config --global user.email &#34;youremail@yourdomain.com&#34; Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule # Remove the submodule entry from .git/config git submodule deinit -f path/to/submodule # Remove the submodule directory from the superproject&#39;s .git/modules directory rm -rf .git/modules/path/to/submodule # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule git rm -f path/to/submodule "/>
 
 	
   </head>
@@ -144,11 +144,12 @@ git config --global user.email <span style="color:#e6db74">&#34;youremail@yourdo
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule init
 git submodule update</code></pre></div>
 <h2 id="remove-submodule">Remove submodule</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mv &lt;yourSubmodule&gt; &lt;yourSubmodule&gt;_tmp
-git submodule deinit &lt;yourSubmodule&gt;
-git rm &lt;yourSubmodule&gt;
-mv &lt;yourSubmodule&gt;_tmp &lt;yourSubmodule&gt;
-git add &lt;yourSubmodule&gt;</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Remove the submodule entry from .git/config</span>
+git submodule deinit -f path/to/submodule
+<span style="color:#75715e"># Remove the submodule directory from the superproject&#39;s .git/modules directory</span>
+rm -rf .git/modules/path/to/submodule
+<span style="color:#75715e"># Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule</span>
+git rm -f path/to/submodule</code></pre></div>
 <ul class="pa0">
   
 </ul>
