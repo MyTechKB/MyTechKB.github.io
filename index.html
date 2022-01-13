@@ -5,7 +5,7 @@
 <title>My Tech Knowledge Base | MyTechKB</title>
 <meta name=viewport content="width=device-width,minimum-scale=1">
 <meta name=description content="All the tech knowledge.">
-<meta name=generator content="Hugo 0.91.2">
+<meta name=generator content="Hugo 0.92.0">
 <meta name=ROBOTS content="NOINDEX, NOFOLLOW">
 <link rel=stylesheet href=/ananke/css/main.min.css>
 <link href=/index.xml rel=alternate type=application/rss+xml title=MyTechKB>
@@ -94,7 +94,7 @@ Git Commands
 </a>
 </h1>
 <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-Initialize global user git config --global user.name "Your Name" git config --global user.email "youremail@yourdomain.com" Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule mv &lt;yourSubmodule> &lt;yourSubmodule>_tmp git submodule deinit &lt;yourSubmodule> git rm &lt;yourSubmodule> mv &lt;yourSubmodule>_tmp &lt;yourSubmodule> git add &lt;yourSubmodule>
+Initialize global user git config --global user.name "Your Name" git config --global user.email "youremail@yourdomain.com" Credentials stored with in ~/.git-credentials file git config --global credential.helper store Clone submodule git submodule init git submodule update Remove submodule # Remove the submodule entry from .git/config git submodule deinit -f path/to/submodule # Remove the submodule directory from the superproject's .git/modules directory rm -rf .git/modules/path/to/submodule # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule git rm -f path/to/submodule
 </div>
 <a href=/post/git_commands/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
 </div>
