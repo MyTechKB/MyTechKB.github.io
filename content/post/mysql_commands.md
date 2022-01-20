@@ -2,7 +2,7 @@
 title: "Mysql Commands"
 date: 2021-12-13T00:07:35-06:00
 draft: false
-category: Quick Starts
+category: Commands
 tags:
 - Development
 - MySQL

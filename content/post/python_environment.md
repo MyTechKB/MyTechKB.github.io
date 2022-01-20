@@ -2,7 +2,7 @@
 title: "Python Environment"
 date: 2021-12-12T23:22:14-06:00
 draft: false
-category: Quick Starts
+category: Environments
 tags:
 - Development
 - Python

@@ -2,7 +2,7 @@
 title: "Rust Environment"
 date: 2022-01-02T23:47:03-06:00
 draft: false
-category: Quick Starts
+category: Environments
 tags:
 - Development
 - Rust

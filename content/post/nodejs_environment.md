@@ -2,7 +2,7 @@
 title: "NodeJS Environment"
 date: 2021-12-12T23:30:21-06:00
 draft: false
-category: Quick Starts
+category: Environments
 tags:
 - Development
 - NodeJS
