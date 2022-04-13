@@ -36,3 +36,13 @@ hello-rust
 |- src
   |- main.rs
 {{< / highlight >}}
+
+## CI Steps
+{{< highlight bash >}}
+cargo build
+cargo test  # Run Tests
+cargo tarpaulin --ignore-tests  # Code Coverage (install using 'cargo install cargo-tarpaulin')
+cargo clippy -- -D warnings  # Linting (fail with warnings)
+cargo fmt -- --check  # Format (fail with unformat)
+cargo audit  # Security Audit
+{{< / highlight >}}
